@@ -1,0 +1,57 @@
+[
+  {
+    "model": "chapter_1.post",
+    "pk": 1,
+    "fields": {
+      "title": "Lorem ipsum",
+      "slug": "lorem-ipsum",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam convallis neque nisl, sed porta nisl consectetur vel. Etiam rhoncus sollicitudin ante non dictum. Vestibulum sapien tortor, porttitor vel cursus ornare, rutrum vel elit. Integer condimentum accumsan risus, non laoreet felis dapibus a. Cras faucibus dui tortor, eu aliquam risus cursus non. Pellentesque eget egestas neque. Sed in nisi eget urna sollicitudin efficitur quis vel leo. Proin lorem leo, tincidunt ac augue vitae, efficitur vulputate lacus. Morbi vehicula sem ut lorem blandit, vel faucibus libero elementum. Sed sit amet ipsum id magna ullamcorper varius. Suspendisse consequat, neque aliquam mollis efficitur, orci nisl fermentum nulla, hendrerit viverra mauris metus ac dolor. Nam congue ultricies lacus, id consectetur tortor auctor id. Nunc vel vestibulum lectus, eget tincidunt ligula. Vestibulum commodo turpis leo, sed ultricies lacus dignissim id. Donec scelerisque varius ipsum ac semper. Suspendisse quis volutpat mauris.",
+      "created_at": "2017-05-12T13:05:27.250Z",
+      "published": true
+    }
+  },
+  {
+    "model": "chapter_1.post",
+    "pk": 2,
+    "fields": {
+      "title": "Curabitur eu magna",
+      "slug": "curabitur-eu-magna",
+      "text": "Curabitur eu magna sit amet leo aliquet lobortis. Vivamus pharetra nunc non vulputate laoreet. Nulla nec volutpat mi. Nam feugiat convallis justo, sed facilisis urna vulputate quis. Curabitur eleifend, nunc at pellentesque ultrices, tellus est tristique libero, sit amet vestibulum turpis urna in ligula. Etiam lacinia convallis lacus quis venenatis. Nunc volutpat at dui non dictum.",
+      "created_at": "2017-06-10T13:08:57.241Z",
+      "published": true
+    }
+  },
+  {
+    "model": "chapter_1.post",
+    "pk": 3,
+    "fields": {
+      "title": "Curabitur vestibulum",
+      "slug": "curabitur-vestibulum",
+      "text": "Curabitur vestibulum congue mi, nec condimentum ligula sollicitudin fermentum. Vivamus non convallis mi. Sed ultricies vitae est non varius. Nullam eget erat porta, consectetur ex et, fringilla felis. Donec venenatis tristique magna sed consectetur. Sed viverra lectus vitae dictum fringilla. Maecenas sed neque a metus vestibulum consectetur.",
+      "created_at": "2017-07-07T13:09:12.142Z",
+      "published": false
+    }
+  },
+  {
+    "model": "chapter_1.post",
+    "pk": 4,
+    "fields": {
+      "title": "Ut at nulla",
+      "slug": "ut-nulla",
+      "text": "Ut at nulla est. Praesent euismod lacus ut nunc vestibulum, sed maximus arcu euismod. Quisque vel orci vulputate, maximus erat eget, semper nisl. Vestibulum placerat odio sit amet maximus aliquet. Donec quis est sit amet nunc viverra accumsan vitae sit amet quam. Aliquam in turpis eget enim tempus placerat at non nunc. Sed odio est, accumsan et eros vel, tincidunt malesuada turpis.",
+      "created_at": "2017-07-20T13:09:23.256Z",
+      "published": true
+    }
+  },
+  {
+    "model": "chapter_1.post",
+    "pk": 5,
+    "fields": {
+      "title": "Vivamus rutrum",
+      "slug": "vivamus-rutrum",
+      "text": "Vivamus rutrum pulvinar neque ut lacinia. Donec luctus dui quis velit dapibus, ultrices elementum mi tempus. In et aliquam ligula. Donec dui metus, pretium ullamcorper lectus ut, sollicitudin mattis lacus. Vestibulum quis lobortis ante. Suspendisse et vulputate magna. In dignissim vitae purus nec mattis. Morbi vitae velit turpis.",
+      "created_at": "2017-07-30T13:09:31.631Z",
+      "published": true
+    }
+  }
+]

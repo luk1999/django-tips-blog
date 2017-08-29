@@ -1,0 +1,131 @@
+[
+  {
+    "model": "chapter_4.position",
+    "pk": 1,
+    "fields": {
+      "name": "Labourer"
+    }
+  },
+  {
+    "model": "chapter_4.position",
+    "pk": 2,
+    "fields": {
+      "name": "Manager"
+    }
+  },
+  {
+    "model": "chapter_4.position",
+    "pk": 3,
+    "fields": {
+      "name": "Director"
+    }
+  },
+  {
+    "model": "chapter_4.person",
+    "pk": 1,
+    "fields": {
+      "first_name": "Stephen",
+      "last_name": "Ipsum"
+    }
+  },
+  {
+    "model": "chapter_4.person",
+    "pk": 2,
+    "fields": {
+      "first_name": "Stephen",
+      "last_name": "Testovsky"
+    }
+  },
+  {
+    "model": "chapter_4.person",
+    "pk": 3,
+    "fields": {
+      "first_name": "John",
+      "last_name": "Lorem"
+    }
+  },
+  {
+    "model": "chapter_4.person",
+    "pk": 4,
+    "fields": {
+      "first_name": "John",
+      "last_name": "Testovsky"
+    }
+  },
+  {
+    "model": "chapter_4.person",
+    "pk": 5,
+    "fields": {
+      "first_name": "Stephen",
+      "last_name": "Smith"
+    }
+  },
+  {
+    "model": "chapter_4.author",
+    "pk": 1,
+    "fields": {}
+  },
+  {
+    "model": "chapter_4.author",
+    "pk": 3,
+    "fields": {}
+  },
+  {
+    "model": "chapter_4.employee",
+    "pk": 2,
+    "fields": {
+      "position": 1
+    }
+  },
+  {
+    "model": "chapter_4.employee",
+    "pk": 4,
+    "fields": {
+      "position": 2
+    }
+  },
+  {
+    "model": "chapter_4.employee",
+    "pk": 5,
+    "fields": {
+      "position": 3
+    }
+  },
+  {
+    "model": "chapter_4.bookcategory",
+    "pk": "Category 1",
+    "fields": {}
+  },
+  {
+    "model": "chapter_4.bookcategory",
+    "pk": "Category 2",
+    "fields": {}
+  },
+  {
+    "model": "chapter_4.book",
+    "pk": 1,
+    "fields": {
+      "author": 1,
+      "category": "Category 1",
+      "title": "Great book"
+    }
+  },
+  {
+    "model": "chapter_4.book",
+    "pk": 2,
+    "fields": {
+      "author": 3,
+      "category": "Category 2",
+      "title": "Interesting one"
+    }
+  },
+  {
+    "model": "chapter_4.book",
+    "pk": 3,
+    "fields": {
+      "author": 1,
+      "category": "Category 1",
+      "title": "Lorem ipsum"
+    }
+  }
+]

@@ -1,0 +1,11 @@
+{% extends 'client_app/index.html' %}
+{% load i18n %}
+
+{% block content %}
+    <h1>{% trans 'Posts' %}</h1>
+    <ul>
+    {% for post in object_list %}
+        <li>{{ post.title }}</li>
+    {% endfor %}
+    </ul>
+{% endblock %}
