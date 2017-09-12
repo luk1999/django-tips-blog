@@ -1,10 +1,10 @@
 from django.contrib import admin
 
-from chapter_5.models import Post
+from chapter_5.models import Result
 
 
-class PostAdmin(admin.ModelAdmin):
+class ResultAdmin(admin.ModelAdmin):
     pass
 
 
-admin.site.register(PostAdmin, Post)
+admin.site.register(Result, ResultAdmin)
