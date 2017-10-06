@@ -1,4 +1,7 @@
-from django.core.validators import ValidationError
+from django.core.validators import (
+    MaxValueValidator,
+    ValidationError,
+)
 from django.db import models
 from django.utils.translation import (
     ugettext,
@@ -16,6 +19,14 @@ def date_is_not_allowed(given_date):
             return True
 
 
+def value_validation(field, value, divide_by):
+    error_msg = ugettext('{value} is not divisible by {divide_by}')
+    if value % divide_by:
+        raise ValidationError({
+            field: error_msg.format(value=value, divide_by=divide_by)
+        })
+
+
 class Result(models.Model):
     error_msg_forbidden_date = ugettext_lazy(
         'Field contains not allowed date.'
@@ -23,7 +34,10 @@ class Result(models.Model):
 
     date_from = models.DateField(verbose_name=ugettext_lazy('From'))
     date_to = models.DateField(verbose_name=ugettext_lazy('To'))
-    value = models.FloatField(verbose_name=ugettext_lazy('Value'))
+    value = models.PositiveIntegerField(
+        verbose_name=ugettext_lazy('Value'),
+        validators=[MaxValueValidator(100)]
+    )
 
     class Meta:
         verbose_name = ugettext_lazy('Result')
@@ -49,3 +63,6 @@ class Result(models.Model):
                 raise ValidationError(
                     ugettext('Dates cannot equal.')
                 )
+
+        if self.value:
+            value_validation('value', self.value, 2)
